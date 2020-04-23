@@ -1,0 +1,11 @@
+1. semantic tags: <article>, <aside>, <section>, <b>, <strong>, <header>, <footer>, <h3>
+not semantic: <div>, <span>
+
+2. <article>
+
+3. This HTML could be a <blockquote> as it is an extended quotation.
+
+4. This should use a <section> tag, as it is part of the flow of the site and also logical to have a title.
+
+5. This would be appropriate as an <aside>, because it's still relevant but not part of the main text.
+
