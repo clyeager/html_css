@@ -1,0 +1,171 @@
+html {
+  font-size: 30px;
+  font-family: Arial, "Helvetica Black", "Franklin Gothic Heavy";
+}
+
+article {
+  border: 4px solid black;
+  width: 41%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+header {
+  margin-bottom: 10px;
+  height: 270px;
+  border-bottom: 10px solid black;
+}
+
+h1 {
+  font-size: 3.0rem;
+  margin: 0;
+  padding: 0;
+  line-height: 70px;
+}
+
+header p {
+  font-size: 1.1rem;
+  padding-bottom: 2px;
+  margin: 0;
+}
+
+p:nth-child(3) {
+  border-bottom: 28px solid black;
+}
+
+p:nth-child(4) {
+  font-size: 0.92rem;
+  font-weight: bold;
+  padding-top: 9px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid black;
+}
+
+header dl {
+  display: inline-block;
+  width: 49%;
+}
+
+header dl dt {
+  display: inline;
+  vertical-align: top;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+header dl:first-of-type dt:first-child {
+  font-weight: bold;
+}
+
+dl:nth-child(2n) {
+  text-align: right;
+}
+
+header dl dd {
+  line-height: 0px;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  vertical-align: top;
+}
+
+table {
+  width: 100%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+
+tbody tr {
+  width: 100%;
+  height: 32px;
+  border-top: 1px solid black;
+}
+
+thead th {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: right;
+  padding-bottom: 5px;
+  border-top: none;
+}
+
+sup {
+  vertical-align: text-top;
+  font-size: smaller;
+}
+
+tbody {
+  text-align: left;
+}
+
+table dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table dt {
+  display: inline-block;
+  padding: 2px;
+}
+
+table dd {
+  display: inline-block;
+  font-weight: normal;
+  margin-left: 0;
+}
+
+table td {
+  text-align: right;
+}
+
+.indent {
+  border-top: none;
+  text-align: left;
+  padding: 2px;
+  position: relative;
+  left: 1.5rem;
+}
+
+tbody td:nth-child(2n) {
+  font-weight: bold;
+}
+
+tfoot {
+  border-top: 28px solid black;
+}
+
+tfoot tr {
+  border-bottom: 1px solid black;
+}
+
+tfoot th {
+  text-align: left;
+  font-weight: normal;
+  padding: 6px 0 0 0;
+}
+
+tfoot td {
+  text-align: right;
+  font-weight: normal;
+}
+
+footer td {
+  text-align: left;
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+
+footer tbody td {
+  padding-right: 35px;
+  margin-left: 0;
+}
+
+footer tbody td:nth-child(3) {
+  text-align: center;
+}
+
+footer tbody td:nth-child(2) {
+  text-align: right;
+}
