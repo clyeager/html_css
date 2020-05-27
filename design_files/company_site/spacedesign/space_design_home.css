@@ -1,0 +1,154 @@
+@import url("custom_reset.css");
+
+* {
+  font-size: 20px;
+}
+
+body {
+  font-family: Avenir, "Nunito Sans", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: rgb(95, 97, 100);
+  font-weight: 500;
+}
+
+header, main, footer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(46, 41, 62);
+  background: rgb(46, 41, 63) url("images/bg_body.gif") 50% 0 repeat;
+  padding: 160px 0 90px;
+}
+
+header img {
+  margin: 0 auto;
+  margin-top: -27px;
+}
+
+header ul {
+  display: flex;
+  padding-top: 120px;
+  margin-bottom: -55px;
+  justify-content: center;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  color: rgb(186, 185, 187);
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.projects {
+  padding: 0 75px;
+}
+
+.home {
+  color: rgb(106, 151, 206);
+  font-weight: bold;
+}
+
+main {
+  width: 1200px;
+  background-color: white;
+  padding-top: 105px;
+}
+
+article {
+  padding: 0 190px 0;
+  align-content: center;
+}
+
+h2 {
+  font: 600 36px Avenir, "Nunito Sans", Helvetica, Arial, sans-serif;
+  color: rgb(70, 73, 77);
+}
+
+h2:before,
+h2:after {
+  display: inline-block;
+  font-size: 28px;
+  padding: 0 32px 0 24px;
+  content: "\2022";
+  color: rgb(46, 41, 62);
+}
+
+.first-heading {
+  padding-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+.second-heading {
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: rgb(66, 90, 172);
+}
+
+main p {
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.second-para {
+  padding-bottom: 70px;
+}
+
+footer {
+  background-color: rgb(231, 231, 231);
+  padding-bottom: 75px;
+}
+
+footer p {
+  font-weight: 500;
+  color: rgb(178, 178, 178);
+  padding: 90px 350px 35px;
+  text-align: center;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 60px;
+}
+
+footer li a {
+  background:
+    transparent
+    url("https://d3jtzah944tvom.cloudfront.net/202/projects/lesson_7/spacedesign/images/icons_social-media.png")
+    0 0 no-repeat;
+  display: block;
+  height: 46px;
+  overflow: hidden;
+  text-indent: -8685px;
+  width: 46px;
+}
+
+footer li a.twitter {
+  background-position: 0 0;
+}
+
+footer li a.facebook {
+  background-position: 0 -46px;
+}
+
+footer li a.email {
+  background-position: 0 -92px;
+}
+
+footer li a.instagram {
+  background-position: 0 -138px;
+}

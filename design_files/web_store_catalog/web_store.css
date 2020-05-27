@@ -1,0 +1,114 @@
+@import url("custom_reset.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(249, 213, 73);
+}
+
+main {
+  background-color: rgb(236, 236, 236);
+  color: black;
+  font-size: 32px;
+  width: 900px;
+  margin: 30px auto 0;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+header {
+  background-color: rgb(53, 126, 188);
+  color: white;
+  font-size: 38px;
+  width: 900px;
+  height: 105px;
+  margin: 0 auto 25px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+h1 {
+  padding: 30px 0 30px 25px;
+}
+
+h2 {
+  padding: 25px 0 25px 25px;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0 0 25px 20px;
+}
+
+li {
+  float: left;
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+  padding-bottom: 15px;
+}
+
+img {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  height: 100%;
+  padding: 15px 25px 20px;
+}
+
+figure {
+  width: 200px;
+  height: 175px;
+}
+
+label {
+  cursor: pointer;
+  display: block;
+  background-color: white;
+}
+
+input {
+  display: none;
+}
+
+h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+input:checked + figure img {
+  height: auto;
+  left: 50%;
+  margin: 0 0 0 -200px;
+  position: absolute;
+  top: 100px;
+  width: 400px;
+  z-index: 2;
+}
+
+input:checked + .clickable::before,
+input:checked + figure::before {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: inherit;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}

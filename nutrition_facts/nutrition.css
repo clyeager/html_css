@@ -5,7 +5,7 @@ html {
 
 article {
   border: 4px solid black;
-  width: 41%;
+  width: 680px;
   padding: 12px;
   box-sizing: border-box;
 }
@@ -77,13 +77,13 @@ table {
   font-size: 1.2rem;
 }
 
-tbody tr {
+main tbody tr {
   width: 100%;
   height: 32px;
   border-top: 1px solid black;
 }
 
-thead th {
+main thead th {
   font-size: 0.9rem;
   font-weight: bold;
   text-align: right;
@@ -128,7 +128,7 @@ table td {
   left: 1.5rem;
 }
 
-tbody td:nth-child(2n) {
+main tbody td:nth-child(2n) {
   font-weight: bold;
 }
 
@@ -151,10 +151,27 @@ tfoot td {
   font-weight: normal;
 }
 
+footer tbody {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+footer tbody tr:first-of-type {
+  border-bottom: 1px solid black;
+}
+
+footer thead td {
+  font-size: 25px;
+  padding: 15px 0 10px 10px;
+}
+
 footer td {
   text-align: left;
-  font-size: 0.8rem;
-  padding-top: 10px;
+  font-weight: normal;
+}
+
+footer th {
+  font-weight: normal;
 }
 
 footer tbody td {
@@ -162,10 +179,6 @@ footer tbody td {
   margin-left: 0;
 }
 
-footer tbody td:nth-child(3) {
-  text-align: center;
-}
-
 footer tbody td:nth-child(2) {
-  text-align: right;
+  padding-left: 50px;
 }

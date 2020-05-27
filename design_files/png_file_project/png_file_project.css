@@ -1,0 +1,83 @@
+@import url("custom_reset.css");
+
+body {
+  background: linear-gradient(to bottom, rgb(211, 218, 192), rgb(251, 253, 244));
+  background-repeat: no-repeat;
+  font: normal 18px 'Roboto Condensed', sans-serif;
+}
+
+header {
+  width: 920px;
+  margin: 0 auto;
+  padding: 20px 20px 0 20px;
+}
+
+header h1 {
+  float: left;
+  font-size: 36px;
+  color: rgb(31, 52, 64);
+  background: transparent url("logo.png") 0 0 no-repeat;
+  padding: 45px 0 15px 115px;
+}
+
+nav {
+  float: right;
+  padding: 75px 0 0 0;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+header nav a {
+  background-color: rgb(253, 255, 246);
+  display: block;
+  text-decoration: none;
+  color: rgb(150, 169, 158);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px 40px 14px 40px;
+  font-weight: bold;
+}
+
+header nav a.active {
+  color: rgb(253, 255, 246);
+  background: rgb(150, 169, 158);
+}
+
+main {
+  clear: both;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 960px;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 5px 5px #b5b5b5;
+}
+
+img.masthead {
+  margin: 0 0 40px 0;
+}
+
+h2 {
+  padding: 0 0 25px 0;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+p {
+  padding: 0 0 20px 0;
+}
+
+figure {
+  float: right;
+  padding: 0 0 0 30px;
+}
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 15px 0;
+}

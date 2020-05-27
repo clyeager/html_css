@@ -1,0 +1,99 @@
+@import url("custom_reset.css");
+
+* {
+  font-size: 20px;
+}
+
+body {
+  background-image: url("bg_body.gif");
+  background-repeat: repeat;
+  font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+  color: rgb(95, 97, 100);
+  font-weight: 500;
+}
+
+main {
+  width: 1000px;
+  background-color: white;
+  color: rgb(46, 41, 62);
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+article {
+  padding: 0 100px 0;
+}
+
+header {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 160px 0 95px 0;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h2 {
+  font: 600 1.8rem "Nunito Sans", Helvetica, Arial, sans-serif;
+  color: rgb(70, 73, 77);
+}
+
+h2:before,
+h2:after {
+  display: inline-block;
+  font-size: 28px;
+  padding: 0 32px 0 24px;
+  content: "\2022";
+  color: rgb(46, 41, 62);
+}
+
+.first-heading {
+  padding-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+.second-heading {
+  padding-top: 158px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  color: rgb(86, 150, 175);
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 28px;
+  text-align: center;
+}
+
+.second-para {
+  padding-bottom: 70px;
+}
+
+footer ul{
+  height: 115px;
+  width: 1000px;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 145px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer li:first-child {
+  padding-right: 120px;
+}
+
+footer li:nth-of-type(3) {
+  padding-left: 120px;
+}
